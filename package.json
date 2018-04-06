@@ -14,13 +14,13 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/StefanieDing/liri-node-app.git"
+      "url": "git+https://github.com/uniqueregina666/LIRI-Bot"
     },
-    "author": "Stefanie Ding",
+    "author": "Regina Ramos",
     "license": "ISC",
     "bugs": {
       "url": "https://github.com/StefanieDing/liri-node-app/issues"
     },
-    "homepage": "https://github.com/StefanieDing/liri-node-app#readme"
+    "homepage": "https://github.com/uniqueregina666/LIRI-Bot/blob/master/README.md"
   }
   
