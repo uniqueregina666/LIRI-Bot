@@ -53,16 +53,16 @@ switch(command){
 
 function showTweets(){
   //Display last 20 Tweets
-  var screenName = {screen_name: 'stefanieding'};
+  var screenName = {screen_name: 'RRamos4818'};
   client.get('statuses/user_timeline', screenName, function(error, tweets, response){
     if(!error){
       for(var i = 0; i<tweets.length; i++){
         var date = tweets[i].created_at;
-        console.log("@StefanieDing: " + tweets[i].text + " Created At: " + date.substring(0, 19));
+        console.log("@RRamos4818: " + tweets[i].text + " Created At: " + date.substring(0, 19));
         console.log("-----------------------");
         
         //adds text to log.txt file
-        fs.appendFile('log.txt', "@StefanieDing: " + tweets[i].text + " Created At: " + date.substring(0, 19));
+        fs.appendFile('log.txt', "@RRamos4818: " + tweets[i].text + " Created At: " + date.substring(0, 19));
         fs.appendFile('log.txt', "-----------------------");
       }
     }else{
